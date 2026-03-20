@@ -39,9 +39,10 @@ def run(_run, _config, _log):
     unique_token = "{}__{}".format(args.name, datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
     args.unique_token = unique_token
     if args.use_tensorboard:
-        tb_logs_direc = os.path.join(dirname(dirname(abspath(__file__))), "results", "tb_logs")
+        tb_logs_direc = os.path.join(args.local_results_path, "tb_logs")
         tb_exp_direc = os.path.join(tb_logs_direc, "{}").format(unique_token)
         args.latent_role_direc = os.path.join(tb_exp_direc, "{}").format('latent_role')
+        os.makedirs(tb_exp_direc, exist_ok=True)
         logger.setup_tb(tb_exp_direc)
 
     # sacred is on by default

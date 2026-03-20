@@ -43,6 +43,6 @@ dis_sigmoid: False
 
 use_tensorboard: True
 save_model: True
-use_cuda: False
+use_cuda: True
 device_num: 0
 save_replay: False
