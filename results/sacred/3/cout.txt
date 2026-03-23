@@ -1,0 +1,177 @@
+[INFO 19:09:50] pymarl Running command 'my_main'
+[INFO 19:09:50] pymarl Started run with ID "3"
+[DEBUG 19:09:50] pymarl Starting Heartbeat
+[DEBUG 19:09:50] my_main Started
+[INFO 19:09:50] my_main Experiment Parameters:
+[INFO 19:09:50] my_main 
+
+{   'action_selector': 'epsilon_greedy',
+    'agent': 'rnn',
+    'agent_output_type': 'q',
+    'batch_size': 32,
+    'batch_size_run': 1,
+    'buffer_cpu_only': True,
+    'buffer_size': 5000,
+    'checkpoint_path': '',
+    'critic_lr': 0.0005,
+    'device_num': 0,
+    'double_q': True,
+    'env': 'sc2',
+    'env_args': {   'continuing_episode': False,
+                    'debug': False,
+                    'difficulty': '7',
+                    'game_version': None,
+                    'is_replay': False,
+                    'map_name': '3m',
+                    'move_amount': 2,
+                    'obs_all_health': True,
+                    'obs_instead_of_state': False,
+                    'obs_last_action': False,
+                    'obs_own_health': True,
+                    'obs_pathing_grid': False,
+                    'obs_terrain_height': False,
+                    'obs_timestep_number': False,
+                    'replay_dir': '',
+                    'replay_prefix': '',
+                    'reward_death_value': 10,
+                    'reward_defeat': 0,
+                    'reward_negative_scale': 0.5,
+                    'reward_only_positive': True,
+                    'reward_scale': True,
+                    'reward_scale_rate': 20,
+                    'reward_sparse': False,
+                    'reward_win': 200,
+                    'seed': 581764253,
+                    'state_last_action': True,
+                    'state_timestep_number': False,
+                    'step_mul': 8},
+    'epsilon_anneal_time': 50000,
+    'epsilon_finish': 0.05,
+    'epsilon_start': 1.0,
+    'evaluate': False,
+    'gamma': 0.99,
+    'grad_norm_clip': 10,
+    'label': 'default_label',
+    'learner': 'q_learner',
+    'learner_log_interval': 20000,
+    'load_step': 0,
+    'local_results_path': '/root/autodl-tmp/roma-results',
+    'log_interval': 500,
+    'lr': 0.0005,
+    'mac': 'basic_mac',
+    'mixer': 'qmix',
+    'mixing_embed_dim': 32,
+    'name': 'qmix',
+    'obs_agent_id': True,
+    'obs_last_action': True,
+    'optim_alpha': 0.99,
+    'optim_eps': 1e-05,
+    'repeat_id': 1,
+    'rnn_hidden_dim': 64,
+    'runner': 'episode',
+    'runner_log_interval': 20000,
+    'save_model': False,
+    'save_model_interval': 2000000,
+    'save_replay': False,
+    'seed': 581764253,
+    't_max': 2000,
+    'target_update_interval': 200,
+    'test_greedy': True,
+    'test_interval': 500,
+    'test_nepisode': 24,
+    'use_cuda': True,
+    'use_tensorboard': False}
+
+[INFO 19:09:50] absl Launching SC2: /root/autodl-tmp/workspaces/ROMA/3rdparty/StarCraftII/Versions/Base69232/SC2_x64 -listen 127.0.0.1 -port 43389 -dataDir /root/autodl-tmp/workspaces/ROMA/3rdparty/StarCraftII/ -tempDir /tmp/sc-5yl59ydj/ -osmesapath libOSMesa.so.8
+[INFO 19:09:50] absl Connecting to: ws://127.0.0.1:43389/sc2api, attempt: 0, running: True
+Version: B69232 (SC2.4.6-Publish)
+Build: Oct 23 2018 01:43:04
+Command Line: '"/root/autodl-tmp/workspaces/ROMA/3rdparty/StarCraftII/Versions/Base69232/SC2_x64" -listen 127.0.0.1 -port 43389 -dataDir /root/autodl-tmp/workspaces/ROMA/3rdparty/StarCraftII/ -tempDir /tmp/sc-5yl59ydj/ -osmesapath libOSMesa.so.8'
+Starting up...
+Startup Phase 1 complete
+[INFO 19:09:51] absl Connecting to: ws://127.0.0.1:43389/sc2api, attempt: 1, running: True
+Startup Phase 2 complete
+Attempting to initialize OSMesa from file libOSMesa.so.8 ...
+Failed to load library file!
+Creating stub renderer...
+Listening on: 127.0.0.1:43389
+Startup Phase 3 complete. Ready for commands.
+[INFO 19:09:52] absl Connecting to: ws://127.0.0.1:43389/sc2api, attempt: 2, running: True
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Entering load game phase.
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Sending ResponseJoinGame
+>>> [0, 0, 0]
+[INFO 19:09:57] my_main Beginning training for 2000 timesteps
+[INFO 19:09:57] absl Launching SC2: /root/autodl-tmp/workspaces/ROMA/3rdparty/StarCraftII/Versions/Base69232/SC2_x64 -listen 127.0.0.1 -port 36781 -dataDir /root/autodl-tmp/workspaces/ROMA/3rdparty/StarCraftII/ -tempDir /tmp/sc-7l2hu2c1/ -osmesapath libOSMesa.so.8
+[INFO 19:09:57] absl Connecting to: ws://127.0.0.1:36781/sc2api, attempt: 0, running: True
+Version: B69232 (SC2.4.6-Publish)
+Build: Oct 23 2018 01:43:04
+Command Line: '"/root/autodl-tmp/workspaces/ROMA/3rdparty/StarCraftII/Versions/Base69232/SC2_x64" -listen 127.0.0.1 -port 36781 -dataDir /root/autodl-tmp/workspaces/ROMA/3rdparty/StarCraftII/ -tempDir /tmp/sc-7l2hu2c1/ -osmesapath libOSMesa.so.8'
+Starting up...
+Startup Phase 1 complete
+[INFO 19:09:58] absl Connecting to: ws://127.0.0.1:36781/sc2api, attempt: 1, running: True
+Startup Phase 2 complete
+Attempting to initialize OSMesa from file libOSMesa.so.8 ...
+Failed to load library file!
+Creating stub renderer...
+Listening on: 127.0.0.1:36781
+Startup Phase 3 complete. Ready for commands.
+[INFO 19:09:59] absl Connecting to: ws://127.0.0.1:36781/sc2api, attempt: 2, running: True
+RequestQuit command received.
+Closing Application...
+unable to parse websocket frame.
+[INFO 19:09:59] absl Shutdown gracefully.
+[INFO 19:09:59] absl Shutdown with return code: -15
+Requesting to join a single player game
+Configuring interface options
+Configure: raw interface enabled
+Configure: feature layer interface disabled
+Configure: score interface disabled
+Configure: render interface disabled
+Entering load game phase.
+Launching next game.
+Next launch phase started: 2
+Next launch phase started: 3
+Next launch phase started: 4
+Next launch phase started: 5
+Next launch phase started: 6
+Next launch phase started: 7
+Next launch phase started: 8
+Game has started.
+Sending ResponseJoinGame
+[INFO 19:10:04] my_main t_env: 60 / 2000
+[INFO 19:10:04] my_main Estimated time left: 23 seconds. Time passed: 6 seconds
+[INFO 19:10:17] my_main Recent Stats | t_env:        517 | Episode:       19
+battle_won_mean:           0.0000	ep_length_mean:           60.0000	epsilon:                   1.0000	return_mean:               0.7200
+return_std:                0.0000	test_battle_won_mean:      0.0000	test_ep_length_mean:      60.0000	test_return_mean:          0.0000
+test_return_std:           0.0000	
+[INFO 19:10:18] my_main t_env: 567 / 2000
+[INFO 19:10:18] my_main Estimated time left: 39 seconds. Time passed: 20 seconds
+[INFO 19:10:33] my_main Recent Stats | t_env:       1046 | Episode:       36
+battle_won_mean:           0.0000	ep_length_mean:           60.0000	epsilon:                   1.0000	grad_norm:                 2.9006
+loss:                      0.2935	q_taken_mean:              0.0596	return_mean:               0.7200	return_std:                0.0000
+target_mean:               0.1865	td_error_abs:              0.4293	test_battle_won_mean:      0.0000	test_ep_length_mean:      60.0000
+test_return_mean:          0.0000	test_return_std:           0.0000	
+[INFO 19:10:33] my_main t_env: 1076 / 2000
+[INFO 19:10:33] my_main Estimated time left: 27 seconds. Time passed: 35 seconds
+[INFO 19:10:50] my_main Recent Stats | t_env:       1551 | Episode:       54
+battle_won_mean:           0.0000	ep_length_mean:           60.0000	epsilon:                   1.0000	grad_norm:                 2.9006
+loss:                      0.2935	q_taken_mean:              0.0596	return_mean:               0.7200	return_std:                0.0000
+target_mean:               0.1865	td_error_abs:              0.4293	test_battle_won_mean:      0.0000	test_ep_length_mean:      60.0000
+test_return_mean:          0.0000	test_return_std:           0.0000	
+[INFO 19:10:50] my_main t_env: 1611 / 2000
+[INFO 19:10:50] my_main Estimated time left: 12 seconds. Time passed: 53 seconds

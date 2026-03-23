@@ -1,0 +1,144 @@
+{
+  "battle_won_mean": [
+    0.0
+  ],
+  "battle_won_mean_T": [
+    60
+  ],
+  "ep_length_mean": [
+    60.0
+  ],
+  "ep_length_mean_T": [
+    60
+  ],
+  "episode": [
+    19,
+    36,
+    54
+  ],
+  "episode_T": [
+    517,
+    1046,
+    1551
+  ],
+  "epsilon": [
+    1.0
+  ],
+  "epsilon_T": [
+    60
+  ],
+  "grad_norm": [
+    2.9006435871124268
+  ],
+  "grad_norm_T": [
+    919
+  ],
+  "loss": [
+    0.29349780082702637
+  ],
+  "loss_T": [
+    919
+  ],
+  "q_taken_mean": [
+    0.05964608619642898
+  ],
+  "q_taken_mean_T": [
+    919
+  ],
+  "return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.72
+    }
+  ],
+  "return_mean_T": [
+    60
+  ],
+  "return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "return_std_T": [
+    60
+  ],
+  "target_mean": [
+    0.1864741577546926
+  ],
+  "target_mean_T": [
+    919
+  ],
+  "td_error_abs": [
+    0.4292960514570865
+  ],
+  "td_error_abs_T": [
+    919
+  ],
+  "test_battle_won_mean": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "test_battle_won_mean_T": [
+    60,
+    567,
+    1076
+  ],
+  "test_ep_length_mean": [
+    60.0,
+    60.0,
+    60.0
+  ],
+  "test_ep_length_mean_T": [
+    60,
+    567,
+    1076
+  ],
+  "test_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "test_return_mean_T": [
+    60,
+    567,
+    1076
+  ],
+  "test_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    },
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "test_return_std_T": [
+    60,
+    567,
+    1076
+  ]
+}

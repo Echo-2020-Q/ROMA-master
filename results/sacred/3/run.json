@@ -1,0 +1,120 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/root/autodl-tmp/workspaces/ROMA/ROMA-master/src",
+    "dependencies": [
+      "numpy==1.26.4",
+      "PyYAML==6.0.1",
+      "sacred==0.8.5",
+      "torch==2.5.1+cu118"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "45936de268cabeb86d65bbd16a32f2d72773ff07",
+        "dirty": false,
+        "url": "https://github.com/Echo-2020-Q/ROMA-master.git"
+      },
+      {
+        "commit": "45936de268cabeb86d65bbd16a32f2d72773ff07",
+        "dirty": false,
+        "url": "https://github.com/Echo-2020-Q/ROMA-master.git"
+      },
+      {
+        "commit": "45936de268cabeb86d65bbd16a32f2d72773ff07",
+        "dirty": false,
+        "url": "https://github.com/Echo-2020-Q/ROMA-master.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_67e34dd428651db57605a2c83c3816e2.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_90a39da1b1a6e3afad41f3713a39a7e8.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_c00a41d7ef2a9596a695b98fbd24db6d.py"
+      ]
+    ]
+  },
+  "heartbeat": "2026-03-20T11:11:00.794279",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) Platinum 8352V CPU @ 2.10GHz",
+    "gpus": {
+      "driver_version": "580.105.08",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 4090",
+          "persistence_mode": true,
+          "total_memory": 24564
+        }
+      ]
+    },
+    "hostname": "autodl-container-d83e478b47-b14e0a04",
+    "os": [
+      "Linux",
+      "Linux-5.15.0-78-generic-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.10.20"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "device_num": 0,
+      "env_args": {
+        "map_name": "3m"
+      },
+      "local_results_path": "/root/autodl-tmp/roma-results",
+      "log_interval": 500,
+      "t_max": 2000,
+      "test_interval": 500,
+      "use_cuda": true
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=3m",
+        "t_max=2000",
+        "use_cuda=True",
+        "device_num=0",
+        "log_interval=500",
+        "test_interval=500",
+        "local_results_path=/root/autodl-tmp/roma-results"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-03-20T11:09:50.686989",
+  "status": "RUNNING"
+}

@@ -1,0 +1,140 @@
+{
+  "artifacts": [],
+  "command": "my_main",
+  "experiment": {
+    "base_dir": "/root/autodl-tmp/workspaces/ROMA/ROMA-master/src",
+    "dependencies": [
+      "numpy==1.26.4",
+      "PyYAML==6.0.1",
+      "sacred==0.8.5",
+      "torch==2.5.1+cu118"
+    ],
+    "mainfile": "main.py",
+    "name": "pymarl",
+    "repositories": [
+      {
+        "commit": "7741a6b5d6e2be7839a751ff06fddd7dead75a3a",
+        "dirty": false,
+        "url": "https://github.com/Echo-2020-Q/ROMA-master.git"
+      },
+      {
+        "commit": "7741a6b5d6e2be7839a751ff06fddd7dead75a3a",
+        "dirty": false,
+        "url": "https://github.com/Echo-2020-Q/ROMA-master.git"
+      },
+      {
+        "commit": "7741a6b5d6e2be7839a751ff06fddd7dead75a3a",
+        "dirty": false,
+        "url": "https://github.com/Echo-2020-Q/ROMA-master.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_67e34dd428651db57605a2c83c3816e2.py"
+      ],
+      [
+        "run.py",
+        "_sources/run_90a39da1b1a6e3afad41f3713a39a7e8.py"
+      ],
+      [
+        "utils/logging.py",
+        "_sources/logging_f0644039f03a0cad02d10369dc33e8f9.py"
+      ]
+    ]
+  },
+  "fail_trace": [
+    "Traceback (most recent call last):\n",
+    "  File \"/root/autodl-tmp/conda-envs/roma-gpu/lib/python3.10/site-packages/sacred/config/captured_function.py\", line 42, in captured_function\n    result = wrapped(*args, **kwargs)\n",
+    "  File \"/root/autodl-tmp/workspaces/ROMA/ROMA-master/src/main.py\", line 34, in my_main\n    run(_run, config, _log)\n",
+    "  File \"/root/autodl-tmp/workspaces/ROMA/ROMA-master/src/run.py\", line 51, in run\n    run_sequential(args=args, logger=logger)\n",
+    "  File \"/root/autodl-tmp/workspaces/ROMA/ROMA-master/src/run.py\", line 85, in run_sequential\n    env_info = runner.get_env_info()\n",
+    "  File \"/root/autodl-tmp/workspaces/ROMA/ROMA-master/src/runners/episode_runner.py\", line 35, in get_env_info\n    return self.env.get_env_info()\n",
+    "  File \"/root/autodl-tmp/workspaces/ROMA/ROMA-master/src/envs/multiagentenv.py\", line 73, in get_env_info\n    \"units_type_id\": self.get_units_type_id(),\n",
+    "  File \"/root/autodl-tmp/workspaces/ROMA/ROMA-master/src/envs/starcraft2/starcraft2.py\", line 823, in get_units_type_id\n    self.reset()\n",
+    "  File \"/root/autodl-tmp/workspaces/ROMA/ROMA-master/src/envs/starcraft2/starcraft2.py\", line 348, in reset\n    self._launch()\n",
+    "  File \"/root/autodl-tmp/workspaces/ROMA/ROMA-master/src/envs/starcraft2/starcraft2.py\", line 293, in _launch\n    self._run_config = run_configs.get()\n",
+    "  File \"/root/autodl-tmp/conda-envs/roma-gpu/lib/python3.10/site-packages/pysc2/run_configs/__init__.py\", line 40, in get\n    return max(configs.values(), key=lambda c: c.priority())(version=version)\n",
+    "  File \"/root/autodl-tmp/conda-envs/roma-gpu/lib/python3.10/site-packages/pysc2/run_configs/platforms.py\", line 179, in __init__\n    super(Linux, self).__init__(base_dir, \"SC2_x64\", version=version, env=env)\n",
+    "  File \"/root/autodl-tmp/conda-envs/roma-gpu/lib/python3.10/site-packages/pysc2/run_configs/platforms.py\", line 61, in __init__\n    super(LocalBase, self).__init__(\n",
+    "  File \"/root/autodl-tmp/conda-envs/roma-gpu/lib/python3.10/site-packages/pysc2/run_configs/lib.py\", line 112, in __init__\n    self.version = self._get_version(version)\n",
+    "  File \"/root/autodl-tmp/conda-envs/roma-gpu/lib/python3.10/site-packages/pysc2/run_configs/lib.py\", line 220, in _get_version\n    versions = self.get_versions(containing=game_version)\n",
+    "  File \"/root/autodl-tmp/conda-envs/roma-gpu/lib/python3.10/site-packages/pysc2/run_configs/platforms.py\", line 94, in get_versions\n    for v in os.listdir(versions_dir)\n",
+    "FileNotFoundError: [Errno 2] No such file or directory: '/root/ROMA/ROMA-master/3rdparty/StarCraftII/Versions'\n"
+  ],
+  "heartbeat": "2026-03-20T10:35:48.406677",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) Platinum 8352V CPU @ 2.10GHz",
+    "gpus": {
+      "driver_version": "580.105.08",
+      "gpus": [
+        {
+          "model": "NVIDIA GeForce RTX 4090",
+          "persistence_mode": true,
+          "total_memory": 24564
+        }
+      ]
+    },
+    "hostname": "autodl-container-d83e478b47-b14e0a04",
+    "os": [
+      "Linux",
+      "Linux-5.15.0-78-generic-x86_64-with-glibc2.35"
+    ],
+    "python_version": "3.10.20"
+  },
+  "meta": {
+    "command": "my_main",
+    "config_updates": {
+      "device_num": 0,
+      "env_args": {
+        "map_name": "3m"
+      },
+      "local_results_path": "/root/autodl-tmp/roma-results",
+      "log_interval": 500,
+      "t_max": 2000,
+      "test_interval": 500,
+      "use_cuda": true
+    },
+    "named_configs": [],
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--id": null,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "env_args.map_name=3m",
+        "t_max=2000",
+        "use_cuda=True",
+        "device_num=0",
+        "log_interval=500",
+        "test_interval=500",
+        "local_results_path=/root/autodl-tmp/roma-results"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2026-03-20T10:35:48.345127",
+  "status": "FAILED",
+  "stop_time": "2026-03-20T10:35:48.411203"
+}

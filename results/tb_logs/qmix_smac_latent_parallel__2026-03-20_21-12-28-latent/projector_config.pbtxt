@@ -1,0 +1,510 @@
+embeddings {
+tensor_name: "latent:01698"
+tensor_path: "01698/latent/tensors.tsv"
+metadata_path: "01698/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:01698"
+tensor_path: "01698/latent-VAE/tensors.tsv"
+metadata_path: "01698/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:06827"
+tensor_path: "06827/latent/tensors.tsv"
+metadata_path: "06827/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:06827"
+tensor_path: "06827/latent-VAE/tensors.tsv"
+metadata_path: "06827/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:11934"
+tensor_path: "11934/latent/tensors.tsv"
+metadata_path: "11934/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:11934"
+tensor_path: "11934/latent-VAE/tensors.tsv"
+metadata_path: "11934/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:16967"
+tensor_path: "16967/latent/tensors.tsv"
+metadata_path: "16967/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:16967"
+tensor_path: "16967/latent-VAE/tensors.tsv"
+metadata_path: "16967/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:22108"
+tensor_path: "22108/latent/tensors.tsv"
+metadata_path: "22108/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:22108"
+tensor_path: "22108/latent-VAE/tensors.tsv"
+metadata_path: "22108/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:27158"
+tensor_path: "27158/latent/tensors.tsv"
+metadata_path: "27158/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:27158"
+tensor_path: "27158/latent-VAE/tensors.tsv"
+metadata_path: "27158/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:32202"
+tensor_path: "32202/latent/tensors.tsv"
+metadata_path: "32202/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:32202"
+tensor_path: "32202/latent-VAE/tensors.tsv"
+metadata_path: "32202/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:37319"
+tensor_path: "37319/latent/tensors.tsv"
+metadata_path: "37319/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:37319"
+tensor_path: "37319/latent-VAE/tensors.tsv"
+metadata_path: "37319/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:42420"
+tensor_path: "42420/latent/tensors.tsv"
+metadata_path: "42420/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:42420"
+tensor_path: "42420/latent-VAE/tensors.tsv"
+metadata_path: "42420/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:47476"
+tensor_path: "47476/latent/tensors.tsv"
+metadata_path: "47476/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:47476"
+tensor_path: "47476/latent-VAE/tensors.tsv"
+metadata_path: "47476/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:52500"
+tensor_path: "52500/latent/tensors.tsv"
+metadata_path: "52500/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:52500"
+tensor_path: "52500/latent-VAE/tensors.tsv"
+metadata_path: "52500/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:57524"
+tensor_path: "57524/latent/tensors.tsv"
+metadata_path: "57524/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:57524"
+tensor_path: "57524/latent-VAE/tensors.tsv"
+metadata_path: "57524/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:62560"
+tensor_path: "62560/latent/tensors.tsv"
+metadata_path: "62560/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:62560"
+tensor_path: "62560/latent-VAE/tensors.tsv"
+metadata_path: "62560/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:67704"
+tensor_path: "67704/latent/tensors.tsv"
+metadata_path: "67704/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:67704"
+tensor_path: "67704/latent-VAE/tensors.tsv"
+metadata_path: "67704/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:72732"
+tensor_path: "72732/latent/tensors.tsv"
+metadata_path: "72732/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:72732"
+tensor_path: "72732/latent-VAE/tensors.tsv"
+metadata_path: "72732/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:77893"
+tensor_path: "77893/latent/tensors.tsv"
+metadata_path: "77893/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:77893"
+tensor_path: "77893/latent-VAE/tensors.tsv"
+metadata_path: "77893/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:82914"
+tensor_path: "82914/latent/tensors.tsv"
+metadata_path: "82914/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:82914"
+tensor_path: "82914/latent-VAE/tensors.tsv"
+metadata_path: "82914/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:88066"
+tensor_path: "88066/latent/tensors.tsv"
+metadata_path: "88066/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:88066"
+tensor_path: "88066/latent-VAE/tensors.tsv"
+metadata_path: "88066/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:93202"
+tensor_path: "93202/latent/tensors.tsv"
+metadata_path: "93202/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:93202"
+tensor_path: "93202/latent-VAE/tensors.tsv"
+metadata_path: "93202/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:98265"
+tensor_path: "98265/latent/tensors.tsv"
+metadata_path: "98265/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:98265"
+tensor_path: "98265/latent-VAE/tensors.tsv"
+metadata_path: "98265/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:103327"
+tensor_path: "103327/latent/tensors.tsv"
+metadata_path: "103327/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:103327"
+tensor_path: "103327/latent-VAE/tensors.tsv"
+metadata_path: "103327/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:108353"
+tensor_path: "108353/latent/tensors.tsv"
+metadata_path: "108353/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:108353"
+tensor_path: "108353/latent-VAE/tensors.tsv"
+metadata_path: "108353/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:113395"
+tensor_path: "113395/latent/tensors.tsv"
+metadata_path: "113395/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:113395"
+tensor_path: "113395/latent-VAE/tensors.tsv"
+metadata_path: "113395/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:118580"
+tensor_path: "118580/latent/tensors.tsv"
+metadata_path: "118580/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:118580"
+tensor_path: "118580/latent-VAE/tensors.tsv"
+metadata_path: "118580/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:123592"
+tensor_path: "123592/latent/tensors.tsv"
+metadata_path: "123592/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:123592"
+tensor_path: "123592/latent-VAE/tensors.tsv"
+metadata_path: "123592/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:128658"
+tensor_path: "128658/latent/tensors.tsv"
+metadata_path: "128658/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:128658"
+tensor_path: "128658/latent-VAE/tensors.tsv"
+metadata_path: "128658/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:133818"
+tensor_path: "133818/latent/tensors.tsv"
+metadata_path: "133818/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:133818"
+tensor_path: "133818/latent-VAE/tensors.tsv"
+metadata_path: "133818/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:138989"
+tensor_path: "138989/latent/tensors.tsv"
+metadata_path: "138989/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:138989"
+tensor_path: "138989/latent-VAE/tensors.tsv"
+metadata_path: "138989/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:144125"
+tensor_path: "144125/latent/tensors.tsv"
+metadata_path: "144125/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:144125"
+tensor_path: "144125/latent-VAE/tensors.tsv"
+metadata_path: "144125/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:149240"
+tensor_path: "149240/latent/tensors.tsv"
+metadata_path: "149240/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:149240"
+tensor_path: "149240/latent-VAE/tensors.tsv"
+metadata_path: "149240/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:154242"
+tensor_path: "154242/latent/tensors.tsv"
+metadata_path: "154242/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:154242"
+tensor_path: "154242/latent-VAE/tensors.tsv"
+metadata_path: "154242/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:159271"
+tensor_path: "159271/latent/tensors.tsv"
+metadata_path: "159271/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:159271"
+tensor_path: "159271/latent-VAE/tensors.tsv"
+metadata_path: "159271/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:164363"
+tensor_path: "164363/latent/tensors.tsv"
+metadata_path: "164363/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:164363"
+tensor_path: "164363/latent-VAE/tensors.tsv"
+metadata_path: "164363/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:169478"
+tensor_path: "169478/latent/tensors.tsv"
+metadata_path: "169478/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:169478"
+tensor_path: "169478/latent-VAE/tensors.tsv"
+metadata_path: "169478/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:174555"
+tensor_path: "174555/latent/tensors.tsv"
+metadata_path: "174555/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:174555"
+tensor_path: "174555/latent-VAE/tensors.tsv"
+metadata_path: "174555/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:179572"
+tensor_path: "179572/latent/tensors.tsv"
+metadata_path: "179572/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:179572"
+tensor_path: "179572/latent-VAE/tensors.tsv"
+metadata_path: "179572/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:184605"
+tensor_path: "184605/latent/tensors.tsv"
+metadata_path: "184605/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:184605"
+tensor_path: "184605/latent-VAE/tensors.tsv"
+metadata_path: "184605/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:189716"
+tensor_path: "189716/latent/tensors.tsv"
+metadata_path: "189716/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:189716"
+tensor_path: "189716/latent-VAE/tensors.tsv"
+metadata_path: "189716/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:194877"
+tensor_path: "194877/latent/tensors.tsv"
+metadata_path: "194877/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:194877"
+tensor_path: "194877/latent-VAE/tensors.tsv"
+metadata_path: "194877/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:200030"
+tensor_path: "200030/latent/tensors.tsv"
+metadata_path: "200030/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:200030"
+tensor_path: "200030/latent-VAE/tensors.tsv"
+metadata_path: "200030/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:205137"
+tensor_path: "205137/latent/tensors.tsv"
+metadata_path: "205137/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:205137"
+tensor_path: "205137/latent-VAE/tensors.tsv"
+metadata_path: "205137/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:210138"
+tensor_path: "210138/latent/tensors.tsv"
+metadata_path: "210138/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:210138"
+tensor_path: "210138/latent-VAE/tensors.tsv"
+metadata_path: "210138/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:215265"
+tensor_path: "215265/latent/tensors.tsv"
+metadata_path: "215265/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:215265"
+tensor_path: "215265/latent-VAE/tensors.tsv"
+metadata_path: "215265/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:220426"
+tensor_path: "220426/latent/tensors.tsv"
+metadata_path: "220426/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:220426"
+tensor_path: "220426/latent-VAE/tensors.tsv"
+metadata_path: "220426/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:225450"
+tensor_path: "225450/latent/tensors.tsv"
+metadata_path: "225450/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:225450"
+tensor_path: "225450/latent-VAE/tensors.tsv"
+metadata_path: "225450/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:230473"
+tensor_path: "230473/latent/tensors.tsv"
+metadata_path: "230473/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:230473"
+tensor_path: "230473/latent-VAE/tensors.tsv"
+metadata_path: "230473/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:235490"
+tensor_path: "235490/latent/tensors.tsv"
+metadata_path: "235490/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:235490"
+tensor_path: "235490/latent-VAE/tensors.tsv"
+metadata_path: "235490/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:240648"
+tensor_path: "240648/latent/tensors.tsv"
+metadata_path: "240648/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:240648"
+tensor_path: "240648/latent-VAE/tensors.tsv"
+metadata_path: "240648/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:245791"
+tensor_path: "245791/latent/tensors.tsv"
+metadata_path: "245791/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:245791"
+tensor_path: "245791/latent-VAE/tensors.tsv"
+metadata_path: "245791/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:250882"
+tensor_path: "250882/latent/tensors.tsv"
+metadata_path: "250882/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:250882"
+tensor_path: "250882/latent-VAE/tensors.tsv"
+metadata_path: "250882/latent-VAE/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent:256026"
+tensor_path: "256026/latent/tensors.tsv"
+metadata_path: "256026/latent/metadata.tsv"
+}
+embeddings {
+tensor_name: "latent-VAE:256026"
+tensor_path: "256026/latent-VAE/tensors.tsv"
+metadata_path: "256026/latent-VAE/metadata.tsv"
+}
