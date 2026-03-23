@@ -50,6 +50,15 @@ map_param_registry = {
         "unit_type_bits": 0,
         "map_type": "marines",
     },
+    "5m_vs_6m_sky": {
+        "n_agents": 5,
+        "n_enemies": 6,
+        "limit": 70,
+        "a_race": "T",
+        "b_race": "T",
+        "unit_type_bits": 0,
+        "map_type": "marines",
+    },
     "8m_vs_9m": {
         "n_agents": 8,
         "n_enemies": 9,
