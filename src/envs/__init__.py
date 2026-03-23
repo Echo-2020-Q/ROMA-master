@@ -5,6 +5,7 @@ from .starcraft2 import StarCraft2Env
 
 import sys
 import os
+from pathlib import Path
 
 try:
     from .gfootball import GoogleFootballEnv
@@ -20,5 +21,5 @@ if GoogleFootballEnv is not None:
     REGISTRY["gf"] = partial(env_fn, env=GoogleFootballEnv)
 
 if sys.platform == "linux":
-    os.environ.setdefault("SC2PATH",
-                          os.path.join(os.getcwd(), "3rdparty", "StarCraftII"))
+    project_root = Path(__file__).resolve().parents[2]
+    os.environ.setdefault("SC2PATH", str(project_root / "3rdparty" / "StarCraftII"))

@@ -1,0 +1,16 @@
+# Large third-party dependencies (keep local; do not commit)
+3rdparty/
+
+# Experiment outputs
+results/
+tb_logs/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS/editor
+.DS_Store
+.vscode/
