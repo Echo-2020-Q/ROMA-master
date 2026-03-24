@@ -724,6 +724,7 @@ class StarCraft2Env(MultiAgentEnv):
             self.medivac_id: 200,  # max energy
             self.stalker_id: 35,
             self.void_ray_id: 35,
+            self.viking_id: 35,
             self.sentry_id: 22,
             self.zealot_id: 22,
             self.colossus_id: 24,
