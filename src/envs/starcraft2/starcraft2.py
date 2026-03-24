@@ -274,6 +274,7 @@ class StarCraft2Env(MultiAgentEnv):
         self.hydralisk_id = self.zergling_id = self.baneling_id = 0
         self.stalker_id = self.colossus_id = self.zealot_id = self.sentry_id = 0
         self.void_ray_id = 0
+        self.viking_id = 0
         self.max_distance_x = 0
         self.max_distance_y = 0
         self.map_x = 0
@@ -705,10 +706,14 @@ class StarCraft2Env(MultiAgentEnv):
 
     def unit_shoot_range(self, agent_id):
         """Returns the shooting range for an agent."""
+        if self.map_type == "vikings":
+            return 9
         return 6
 
     def unit_sight_range(self, agent_id):
         """Returns the sight range for an agent."""
+        if self.map_type == "vikings":
+            return 11
         return 9
 
     def unit_max_cooldown(self, unit):
@@ -1420,6 +1425,8 @@ class StarCraft2Env(MultiAgentEnv):
         elif self.map_type == "zv_mb":
             self.void_ray_id = min_unit_type
             self.zealot_id = min_unit_type + 1
+        elif self.map_type == "vikings":
+            self.viking_id = min_unit_type
         elif self.map_type == "MMM":
             self.marauder_id = min_unit_type
             self.marine_id = min_unit_type + 1

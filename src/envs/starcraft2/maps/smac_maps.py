@@ -57,7 +57,16 @@ map_param_registry = {
         "a_race": "T",
         "b_race": "T",
         "unit_type_bits": 0,
-        "map_type": "marines",
+        "map_type": "vikings",
+    },
+    "15m_vs_16m_sky": {
+        "n_agents": 15,
+        "n_enemies": 16,
+        "limit": 120,
+        "a_race": "T",
+        "b_race": "T",
+        "unit_type_bits": 0,
+        "map_type": "vikings",
     },
     "8m_vs_9m": {
         "n_agents": 8,
